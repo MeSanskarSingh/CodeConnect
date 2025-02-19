@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeConnect Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <nav>
+        <h1>CodeConnect</h1>
+        <input type="text" placeholder="Search for topics...">
+        <button id="logout">Logout</button>
+        
+    </nav>
+
+    <div class="container">
+        <aside class="left-sidebar">
+            <h2>Categories</h2>
+            <ul>
+                <li>Data Structures</li>
+                <li>Web Development</li>
+                <li>Machine Learning</li>
+                <li>Competitive Programming</li>
+            </ul>
+        </aside>
+
+        <main>
+            <h2>Recent Discussions</h2>
+            <div id="threads" class="discussion-container">
+            </div>
+   
+            <button id="new-post">+ Start a Discussion</button>
+        </main>
+
+
+        <aside class="right-sidebar">
+            <h2>Top Contributors</h2>
+            <ul>
+                <li>Priya - 1500 points</li>
+                <li>Sam - 1200 points</li>
+                <li>Robin - 1100 points</li>
+            </ul>
+            <button id="ask-mentor">Ask a Mentor</button>
+        </aside>
+    </div>
+
+    <script src="dashboard.js" type="module"></script>
+</body>
+
+</html>
