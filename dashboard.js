@@ -39,7 +39,7 @@ async function loadDiscussions() {
 
         discussionDiv.innerHTML = `
             <h3>${discussion.title}</h3>
-            <p>${discussion.content}</p>
+            <p class="post-content">${discussion.content}</p>
             <p><strong>Posted by:</strong> ${discussion.userEmail}</p>
             <div class="vote-container">
                 <button class="upvote" data-id="${discussionId}">⬆️ ${discussion.upvotes?.length || 0}</button>
