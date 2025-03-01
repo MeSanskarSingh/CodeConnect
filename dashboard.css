@@ -55,6 +55,10 @@ nav h1 {
     margin-bottom: 5px;
 }
 
+.post-content {
+    font-family: Consolas, monospace;
+}
+
 .discussion p {
     font-size: 16px;
     color: white;
